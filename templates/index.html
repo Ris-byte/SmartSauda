@@ -1,2 +1,281 @@
-<h1>hi</h1>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Vehicle Price Predictor</title>
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="/" class="logo">
+          <i class="fa-solid fa-car"></i>
+          Vehicle Price Predictor
+        </a>
+
+        <div class="nav-links">
+          <a href="/" class="active">Home</a>
+
+          <a href="/predict">Predict Price</a>
+
+          <a href="/dashboard">Dashboard</a>
+
+          <a href="/about">About</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="hero">
+      <div class="hero-container">
+        <!-- Left Side -->
+
+        <div class="hero-content">
+          <div class="hero-badge">
+            <i class="fa-solid fa-brain"></i>
+            Machine Learning Powered
+          </div>
+
+          <h1>
+            Predict the Price of Your
+            <span>Second-Hand Vehicle</span>
+          </h1>
+
+          <p>
+            Get an estimated market price for your second-hand vehicle using
+            machine learning. Enter your vehicle details and get a quick and
+            reliable price prediction.
+          </p>
+
+          <a href="/predict" class="predict-btn">
+            Predict Now
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+
+          <!-- Small Stats -->
+
+          <div class="hero-stats">
+            <div>
+              <strong>Fast</strong>
+              <small>Prediction</small>
+            </div>
+
+            <div>
+              <strong>ML</strong>
+              <small>Powered</small>
+            </div>
+
+            <div>
+              <strong>Easy</strong>
+              <small>To Use</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side -->
+
+        <div class="hero-image">
+          <div class="circle-bg"></div>
+
+          <div class="vehicle-card">
+            <i class="fa-solid fa-car large-car"></i>
+
+            <!-- Price Card -->
+
+            <div class="price-card">
+              <i class="fa-solid fa-chart-line"></i>
+
+              <div>
+                <small>Estimated Price</small>
+                <strong>Rs. 18,50,000</strong>
+              </div>
+            </div>
+
+            <!-- Vehicle Card -->
+
+            <div class="vehicle-small-card">
+              <i class="fa-solid fa-motorcycle"></i>
+
+              <div>
+                <strong>Vehicle</strong>
+                <small>Price Prediction</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FEATURES ================= -->
+
+    <section class="features">
+      <div class="section-heading">
+        <span>WHY CHOOSE US?</span>
+
+        <h2>Smart Vehicle Price Prediction</h2>
+
+        <p>
+          Our system makes second-hand vehicle price estimation simple, fast and
+          convenient.
+        </p>
+      </div>
+
+      <div class="features-container">
+        <!-- Feature 1 -->
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fa-solid fa-chart-line"></i>
+          </div>
+
+          <h3>Accurate Prediction</h3>
+
+          <p>
+            Get an estimated vehicle price based on important factors such as
+            model, year, mileage and engine capacity.
+          </p>
+        </div>
+
+        <!-- Feature 2 -->
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fa-solid fa-bolt"></i>
+          </div>
+
+          <h3>Fast Results</h3>
+
+          <p>
+            Enter your vehicle information and receive the predicted price
+            within seconds.
+          </p>
+        </div>
+
+        <!-- Feature 3 -->
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fa-solid fa-brain"></i>
+          </div>
+
+          <h3>Machine Learning Powered</h3>
+
+          <p>
+            Our system uses machine learning algorithms trained on historical
+            vehicle data.
+          </p>
+        </div>
+
+        <!-- Feature 4 -->
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fa-solid fa-car"></i>
+          </div>
+
+          <h3>Easy to Use</h3>
+
+          <p>
+            A simple and user-friendly interface makes price prediction easy for
+            everyone.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CTA ================= -->
+
+    <section class="cta">
+      <div>
+        <h2>Want to know your vehicle's value?</h2>
+
+        <p>Enter your vehicle details and get an estimated price now.</p>
+      </div>
+
+      <a href="/predict" class="cta-button"> Predict Price → </a>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- About -->
+
+        <div class="footer-about">
+          <div class="footer-logo">
+            <i class="fa-solid fa-car"></i>
+
+            <span> Vehicle Price Predictor </span>
+          </div>
+
+          <p>
+            A machine learning based web application designed to estimate the
+            price of second-hand vehicles.
+          </p>
+
+          <div class="social-icons">
+            <a href="#">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+
+            <a href="#">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#">
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="#">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Team -->
+
+        <div class="footer-team">
+          <h3>Project Team</h3>
+
+          <p>Rajan Kumar Shah</p>
+
+          <p>Rishab Thapa</p>
+
+          <p>Prabin Thanet</p>
+        </div>
+
+        <!-- College -->
+
+        <div class="footer-college">
+          <h3>College</h3>
+
+          <p>Oxford College of Engineering & Management</p>
+
+          <p>Project-III</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Vehicle Price Predictor. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </body>
+</html>
