@@ -1,0 +1,8 @@
+{
+  "vehicle_type": "Bike",
+  "brand": "Bajaj",
+  "model": "Pulsar 150",
+  "manufacture_year": 2020,
+  "km_driven": 30000,
+  "engine_capacity_cc": 149
+}

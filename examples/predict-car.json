@@ -1,0 +1,13 @@
+{
+  "vehicle_type": "Car",
+  "brand": "Hyundai",
+  "model": "i10",
+  "manufacture_year": 2022,
+  "km_driven": 35000,
+  "engine_capacity_cc": 1197,
+  "owner_count": 1,
+  "region": "Bagmati",
+  "fuel_type": "Petrol",
+  "transmission": "Manual",
+  "condition": "Good"
+}

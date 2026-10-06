@@ -1,0 +1,10 @@
+import { ArrowRight, Check, Info } from 'lucide-react'
+import { Link, useSearchParams } from 'react-router-dom'
+import { PageTitle, VehicleIcon } from '../components'
+import type { VehicleType } from '../types'
+import { vehicleTypes } from '../types'
+import PredictionForm from './PredictionForm'
+export default function Predict() {
+  const [params, setParams] = useSearchParams(); const requested = params.get('type') as VehicleType; const type = vehicleTypes.includes(requested) ? requested : 'Car'
+  return <div className="page-wrap"><PageTitle eyebrow="A LITTLE KNOWLEDGE GOES A LONG WAY" title="LET’S TALK ABOUT YOUR RIDE." description="Tell us its story. We’ll help put a number to it." /><fieldset className="vehicle-choice"><legend className="sr-only">Choose vehicle type</legend>{vehicleTypes.map(kind => <label key={kind} className={kind === type ? 'selected' : ''}><input type="radio" name="vehicle-type" checked={kind === type} onChange={() => setParams({ type: kind })} /><VehicleIcon type={kind} size={28} /><span>{kind}<small>{kind === 'Car' ? 'Room for the road ahead' : kind === 'Bike' ? 'Made for your own way' : 'Your everyday companion'}</small></span>{kind === type && <Check size={17} aria-hidden="true" />}</label>)}</fieldset><div className="prediction-layout"><PredictionForm key={type} type={type} initialBrand={params.get('brand') || ''} /><aside className="form-aside"><span className="line-icon"><VehicleIcon type={type} size={46} /></span><p className="eyebrow">BEFORE YOU BEGIN</p><h2>THE DETAILS<br />MAKE A DIFFERENCE.</h2><ol><li>Use the manufacture year on your vehicle documents.</li><li>Enter the current odometer reading in kilometres.</li><li>Leave anything you’re unsure about blank.</li></ol><div className="aside-note"><Info size={18} aria-hidden="true" /><p>This is an estimate from historical data. Condition, paperwork and today’s market still matter.</p></div><Link to="/about#data" className="text-link">Understand your estimate <ArrowRight size={15} aria-hidden="true" /></Link></aside></div></div>
+}

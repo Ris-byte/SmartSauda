@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "random_seed": 42,
+  "approval": {
+    "date": "2026-09-26",
+    "cohort": "3316 retained records; four suspect 1980 records quarantined. Fixed reference year 2026; eleven electric scooter engine capacities corrected from missing to zero using motor-power evidence. Historical prices unchanged.",
+    "modeling_approach": "Separate Car, Bike and Scooter models; source labels are used only for split balancing and reporting.",
+    "limitations_accepted_for_research": [
+      "reduced sample size",
+      "unverified user-file provenance",
+      "missing listing dates",
+      "historical price labels"
+    ],
+    "training_enabled": false,
+    "deployment_approved": false,
+    "suspended_on": "2026-10-04",
+    "suspension_reason": "Market audit found unverified, substantially underpriced car labels and conflicting bike sources. Use separately admitted research data; do not retrain this cohort."
+  },
+  "datasets": [
+    "data/processed/feasibility-v1/vehicles.csv"
+  ],
+  "expected_rows": {
+    "Car": 1110,
+    "Bike": 1800,
+    "Scooter": 406
+  },
+  "split": {
+    "test_folds": 5,
+    "validation_folds_within_development": 4,
+    "group_km_bucket": 1000,
+    "group_key": "vehicle type + normalized brand + normalized model + manufacture year + odometer rounded to nearest 1000 km; excludes price and source",
+    "notes": "Approximately 60/20/20 train/validation/test; StratifiedGroupKFold balances source representation. No temporal holdout is possible without listing dates. Grouping is a conservative heuristic, not proof of vehicle identity."
+  },
+  "selection": {
+    "metric": "validation MAE in NPR",
+    "tuning": "Three grouped folds inside training only, optimizing MAE; retain the initial winning configuration if the tuned configuration has worse validation MAE",
+    "final_fit": "Refit selected configuration on train + validation, evaluate once on untouched test, export exactly that fitted estimator; never refit on test",
+    "n_jobs": 2
+  }
+}

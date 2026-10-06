@@ -1,0 +1,1854 @@
+{
+  "model_version": "v1.1.0",
+  "vehicle_type": "Scooter",
+  "currency": "NPR",
+  "market": "Nepal",
+  "feature_version": "1.0",
+  "features": {
+    "numeric": [
+      "vehicle_age",
+      "km_driven",
+      "km_per_year",
+      "engine_capacity_cc",
+      "motor_power_kw"
+    ],
+    "categorical": [
+      "brand",
+      "model"
+    ]
+  },
+  "reference_year": 2026,
+  "catalog": [
+    {
+      "brand": "AIMA",
+      "model": "Moped",
+      "training_rows": 1,
+      "min_year": 2020,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2021,
+        "observed_max_year": 2021,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Electric"
+        ],
+        "engine_capacity_cc": [
+          0,
+          0
+        ],
+        "motor_power_kw": [
+          0.35,
+          3.0
+        ],
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Aprilia",
+      "model": "SR 125",
+      "training_rows": 8,
+      "min_year": 2018,
+      "max_year": 2021,
+      "constraints": {
+        "observed_min_year": 2018,
+        "observed_max_year": 2021,
+        "year_basis": "observed_range",
+        "catalog_rows": 13,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Aprilia",
+      "model": "SR 150",
+      "training_rows": 16,
+      "min_year": 2018,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2018,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 23,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Aprilia",
+      "model": "SXR 160",
+      "training_rows": 1,
+      "min_year": 2020,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2021,
+        "observed_max_year": 2021,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Aprilia",
+      "model": "Storm 125",
+      "training_rows": 6,
+      "min_year": 2019,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2019,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 8,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Hero",
+      "model": "Dash",
+      "training_rows": 2,
+      "min_year": 2014,
+      "max_year": 2017,
+      "constraints": {
+        "observed_min_year": 2014,
+        "observed_max_year": 2017,
+        "year_basis": "observed_range",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Hero",
+      "model": "Destini 125",
+      "training_rows": 23,
+      "min_year": 2018,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2018,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 31,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Hero",
+      "model": "Duet",
+      "training_rows": 5,
+      "min_year": 2016,
+      "max_year": 2017,
+      "constraints": {
+        "observed_min_year": 2016,
+        "observed_max_year": 2017,
+        "year_basis": "observed_range",
+        "catalog_rows": 5,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Hero",
+      "model": "Maestro Edge",
+      "training_rows": 1,
+      "min_year": 2022,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2023,
+        "observed_max_year": 2023,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Hero",
+      "model": "Pleasure",
+      "training_rows": 3,
+      "min_year": 2004,
+      "max_year": 2012,
+      "constraints": {
+        "observed_min_year": 2004,
+        "observed_max_year": 2012,
+        "year_basis": "observed_range",
+        "catalog_rows": 3,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Hero",
+      "model": "Pleasure Plus",
+      "training_rows": 1,
+      "min_year": 2017,
+      "max_year": 2019,
+      "constraints": {
+        "observed_min_year": 2018,
+        "observed_max_year": 2018,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "Activa",
+      "training_rows": 2,
+      "min_year": 2010,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2010,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "Activa 125",
+      "training_rows": 6,
+      "min_year": 2014,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2014,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 7,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "Aviator",
+      "training_rows": 12,
+      "min_year": 2012,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2012,
+        "observed_max_year": 2022,
+        "year_basis": "observed_range",
+        "catalog_rows": 18,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "Dio",
+      "training_rows": 66,
+      "min_year": 2011,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 82,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "Dio BS6",
+      "training_rows": 5,
+      "min_year": 2018,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2018,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 6,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "Grazia BS4",
+      "training_rows": 14,
+      "min_year": 2018,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2018,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 16,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "Grazia BS6",
+      "training_rows": 3,
+      "min_year": 2019,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2019,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 6,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "Navi",
+      "training_rows": 1,
+      "min_year": 2016,
+      "max_year": 2018,
+      "constraints": {
+        "observed_min_year": 2017,
+        "observed_max_year": 2017,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "ItalicaMoto",
+      "model": "Formula 150",
+      "training_rows": 8,
+      "min_year": 2020,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2020,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 9,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Komaki",
+      "model": "SE",
+      "training_rows": 1,
+      "min_year": 2013,
+      "max_year": 2015,
+      "constraints": {
+        "observed_min_year": 2014,
+        "observed_max_year": 2014,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Electric"
+        ],
+        "engine_capacity_cc": [
+          0,
+          0
+        ],
+        "motor_power_kw": [
+          0.35,
+          3.0
+        ],
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Lvneng",
+      "model": "LX05",
+      "training_rows": 1,
+      "min_year": 2021,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2022,
+        "observed_max_year": 2022,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Electric"
+        ],
+        "engine_capacity_cc": [
+          0,
+          0
+        ],
+        "motor_power_kw": [
+          0.35,
+          3.0
+        ],
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Mitsuzu",
+      "model": "Model lp E",
+      "training_rows": 0,
+      "min_year": 2022,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2023,
+        "observed_max_year": 2023,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Electric"
+        ],
+        "engine_capacity_cc": [
+          0,
+          0
+        ],
+        "motor_power_kw": [
+          0.35,
+          3.0
+        ],
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Segway",
+      "model": "E110",
+      "training_rows": 1,
+      "min_year": 2021,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2022,
+        "observed_max_year": 2022,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Electric"
+        ],
+        "engine_capacity_cc": [
+          0,
+          0
+        ],
+        "motor_power_kw": [
+          0.35,
+          3.0
+        ],
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Super Soco",
+      "model": "CUx",
+      "training_rows": 1,
+      "min_year": 2023,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2024,
+        "observed_max_year": 2024,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Electric"
+        ],
+        "engine_capacity_cc": [
+          0,
+          0
+        ],
+        "motor_power_kw": [
+          0.35,
+          3.0
+        ],
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Super Soco",
+      "model": "TC",
+      "training_rows": 1,
+      "min_year": 2022,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2023,
+        "observed_max_year": 2023,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Electric"
+        ],
+        "engine_capacity_cc": [
+          0,
+          0
+        ],
+        "motor_power_kw": [
+          0.35,
+          3.0
+        ],
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Super Soco",
+      "model": "TS Street Hunter",
+      "training_rows": 1,
+      "min_year": 2021,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2022,
+        "observed_max_year": 2022,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Electric"
+        ],
+        "engine_capacity_cc": [
+          0,
+          0
+        ],
+        "motor_power_kw": [
+          0.35,
+          3.0
+        ],
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Suzuki",
+      "model": "Access 125",
+      "training_rows": 2,
+      "min_year": 2019,
+      "max_year": 2021,
+      "constraints": {
+        "observed_min_year": 2019,
+        "observed_max_year": 2021,
+        "year_basis": "observed_range",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Suzuki",
+      "model": "Avenis 125",
+      "training_rows": 0,
+      "min_year": 2021,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2022,
+        "observed_max_year": 2022,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Suzuki",
+      "model": "Burgman",
+      "training_rows": 2,
+      "min_year": 2019,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2019,
+        "observed_max_year": 2022,
+        "year_basis": "observed_range",
+        "catalog_rows": 3,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "TAILG",
+      "model": "Lion",
+      "training_rows": 1,
+      "min_year": 2021,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2022,
+        "observed_max_year": 2022,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Electric"
+        ],
+        "engine_capacity_cc": [
+          0,
+          0
+        ],
+        "motor_power_kw": [
+          0.35,
+          3.0
+        ],
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "TAILG",
+      "model": "Tiger",
+      "training_rows": 1,
+      "min_year": 2021,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2022,
+        "observed_max_year": 2022,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Electric"
+        ],
+        "engine_capacity_cc": [
+          0,
+          0
+        ],
+        "motor_power_kw": [
+          0.35,
+          3.0
+        ],
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "TVS",
+      "model": "Dazz",
+      "training_rows": 1,
+      "min_year": 2016,
+      "max_year": 2018,
+      "constraints": {
+        "observed_min_year": 2017,
+        "observed_max_year": 2017,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "TVS",
+      "model": "Jupiter Classic",
+      "training_rows": 3,
+      "min_year": 2010,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2010,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 4,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "TVS",
+      "model": "NTorq 125",
+      "training_rows": 26,
+      "min_year": 2018,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2018,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 33,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "TVS",
+      "model": "Ntorq 125 Disc",
+      "training_rows": 11,
+      "min_year": 2018,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2018,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 18,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "TVS",
+      "model": "Ntorq 125 Drum",
+      "training_rows": 6,
+      "min_year": 2019,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2019,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 9,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "TVS",
+      "model": "Ntorq 125 Race Edition",
+      "training_rows": 11,
+      "min_year": 2020,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2020,
+        "observed_max_year": 2022,
+        "year_basis": "observed_range",
+        "catalog_rows": 11,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "TVS",
+      "model": "Ntorq 125 Race Edition FI BSVI",
+      "training_rows": 5,
+      "min_year": 2020,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2020,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 7,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "TVS",
+      "model": "Ntorq 125 Race XP",
+      "training_rows": 8,
+      "min_year": 2022,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2022,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 9,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "TVS",
+      "model": "Ntorq 125 Super Squad",
+      "training_rows": 3,
+      "min_year": 2020,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2021,
+        "observed_max_year": 2021,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 3,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "TVS",
+      "model": "Wego",
+      "training_rows": 2,
+      "min_year": 2013,
+      "max_year": 2015,
+      "constraints": {
+        "observed_min_year": 2014,
+        "observed_max_year": 2014,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "TVS",
+      "model": "Zest",
+      "training_rows": 0,
+      "min_year": 2021,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2022,
+        "observed_max_year": 2022,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Vespa",
+      "model": "Elegante",
+      "training_rows": 2,
+      "min_year": 2021,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2022,
+        "observed_max_year": 2022,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Vespa",
+      "model": "LX",
+      "training_rows": 3,
+      "min_year": 2014,
+      "max_year": 2021,
+      "constraints": {
+        "observed_min_year": 2014,
+        "observed_max_year": 2021,
+        "year_basis": "observed_range",
+        "catalog_rows": 3,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Vespa",
+      "model": "Notte",
+      "training_rows": 1,
+      "min_year": 2020,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2021,
+        "observed_max_year": 2021,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Vespa",
+      "model": "SXL",
+      "training_rows": 1,
+      "min_year": 2017,
+      "max_year": 2019,
+      "constraints": {
+        "observed_min_year": 2018,
+        "observed_max_year": 2018,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Vespa",
+      "model": "VXL",
+      "training_rows": 1,
+      "min_year": 2015,
+      "max_year": 2017,
+      "constraints": {
+        "observed_min_year": 2016,
+        "observed_max_year": 2016,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yadea",
+      "model": "C1S",
+      "training_rows": 0,
+      "min_year": 2018,
+      "max_year": 2020,
+      "constraints": {
+        "observed_min_year": 2019,
+        "observed_max_year": 2019,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Electric"
+        ],
+        "engine_capacity_cc": [
+          0,
+          0
+        ],
+        "motor_power_kw": [
+          0.35,
+          3.0
+        ],
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "Aerox 155",
+      "training_rows": 1,
+      "min_year": 2021,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2022,
+        "observed_max_year": 2022,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "Fascino",
+      "training_rows": 3,
+      "min_year": 2011,
+      "max_year": 2018,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2018,
+        "year_basis": "observed_range",
+        "catalog_rows": 3,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "Fascino 113",
+      "training_rows": 4,
+      "min_year": 2010,
+      "max_year": 2017,
+      "constraints": {
+        "observed_min_year": 2010,
+        "observed_max_year": 2017,
+        "year_basis": "observed_range",
+        "catalog_rows": 5,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "Fascino 125 FI",
+      "training_rows": 2,
+      "min_year": 2019,
+      "max_year": 2021,
+      "constraints": {
+        "observed_min_year": 2020,
+        "observed_max_year": 2020,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "Ray Z 113",
+      "training_rows": 4,
+      "min_year": 2013,
+      "max_year": 2019,
+      "constraints": {
+        "observed_min_year": 2013,
+        "observed_max_year": 2019,
+        "year_basis": "observed_range",
+        "catalog_rows": 4,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "Ray ZR",
+      "training_rows": 4,
+      "min_year": 2017,
+      "max_year": 2018,
+      "constraints": {
+        "observed_min_year": 2017,
+        "observed_max_year": 2018,
+        "year_basis": "observed_range",
+        "catalog_rows": 4,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "Ray ZR 125 FI",
+      "training_rows": 7,
+      "min_year": 2020,
+      "max_year": 2021,
+      "constraints": {
+        "observed_min_year": 2020,
+        "observed_max_year": 2021,
+        "year_basis": "observed_range",
+        "catalog_rows": 7,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "Ray ZR 125 Fi Hybrid",
+      "training_rows": 8,
+      "min_year": 2023,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2023,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 8,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "Ray ZR Street Rally 113",
+      "training_rows": 3,
+      "min_year": 2017,
+      "max_year": 2021,
+      "constraints": {
+        "observed_min_year": 2017,
+        "observed_max_year": 2021,
+        "year_basis": "observed_range",
+        "catalog_rows": 4,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "Ray ZR Street Rally 125 FI",
+      "training_rows": 9,
+      "min_year": 2021,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2021,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 10,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          102,
+          160
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Automatic"
+        ],
+        "body_types": [],
+        "km_driven_max": 190000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    }
+  ],
+  "categorical_values": {
+    "brand": [
+      "aima",
+      "aprilia",
+      "hero",
+      "honda",
+      "italicamoto",
+      "komaki",
+      "lvneng",
+      "segway",
+      "super soco",
+      "suzuki",
+      "tailg",
+      "tvs",
+      "vespa",
+      "yamaha"
+    ],
+    "model": [
+      "access 125",
+      "activa",
+      "activa 125",
+      "aerox 155",
+      "aviator",
+      "burgman",
+      "cux",
+      "dash",
+      "dazz",
+      "destini 125",
+      "dio",
+      "dio bs6",
+      "duet",
+      "e110",
+      "elegante",
+      "fascino",
+      "fascino 113",
+      "fascino 125 fi",
+      "formula 150",
+      "grazia bs4",
+      "grazia bs6",
+      "jupiter classic",
+      "lion",
+      "lx",
+      "lx05",
+      "maestro edge",
+      "moped",
+      "navi",
+      "notte",
+      "ntorq 125",
+      "ntorq 125 disc",
+      "ntorq 125 drum",
+      "ntorq 125 race edition",
+      "ntorq 125 race edition fi bsvi",
+      "ntorq 125 race xp",
+      "ntorq 125 super squad",
+      "pleasure",
+      "pleasure plus",
+      "ray z 113",
+      "ray zr",
+      "ray zr 125 fi",
+      "ray zr 125 fi hybrid",
+      "ray zr street rally 113",
+      "ray zr street rally 125 fi",
+      "se",
+      "sr 125",
+      "sr 150",
+      "storm 125",
+      "sxl",
+      "sxr 160",
+      "tc",
+      "tiger",
+      "ts street hunter",
+      "vxl",
+      "wego"
+    ]
+  },
+  "numeric_training_ranges": {
+    "vehicle_age": {
+      "min": 1.0,
+      "max": 22.0
+    },
+    "km_driven": {
+      "min": 0.0,
+      "max": 190000.0
+    },
+    "km_per_year": {
+      "min": 0.0,
+      "max": 27142.85714285714
+    },
+    "engine_capacity_cc": {
+      "min": 0.0,
+      "max": 160.0
+    },
+    "motor_power_kw": {
+      "min": 0.35,
+      "max": 3.0
+    }
+  },
+  "fit_rows": 325,
+  "fit_sources": {
+    "nepal_bikebazar_2025": 238,
+    "nepal_user_2000": 87
+  },
+  "source_reference_years": {
+    "nepal_bikebazar_2025": [
+      2026
+    ],
+    "nepal_user_2000": [
+      2026
+    ]
+  },
+  "test_metrics": {
+    "n": 81,
+    "mae_npr": 26932.604736185145,
+    "rmse_npr": 41078.618705467794,
+    "r2": 0.6104259167061108,
+    "median_absolute_percentage_error": 15.11435877674112,
+    "within_20_percent": 0.6666666666666666
+  },
+  "test_metrics_by_source": {
+    "nepal_bikebazar_2025": {
+      "n": 59,
+      "mae_npr": 32637.75860071854,
+      "rmse_npr": 46926.22907233042,
+      "r2": 0.37226352329527834,
+      "median_absolute_percentage_error": 16.644619626013036,
+      "within_20_percent": 0.6271186440677966
+    },
+    "nepal_user_2000": {
+      "n": 22,
+      "mae_npr": 11632.419372209226,
+      "rmse_npr": 17531.13927312957,
+      "r2": 0.7137301542467911,
+      "median_absolute_percentage_error": 7.092502207925387,
+      "within_20_percent": 0.7727272727272727
+    }
+  },
+  "limitations": [
+    "Historical data; not adjusted to today's market prices.",
+    "User CSV provenance remains unverified; car data comes exclusively from that source.",
+    "Training and inference both use fixed reference year 2026; historical prices are not time-adjusted.",
+    "Catalog years describe observed support, not verified production dates; single observed years have a one-year padded window.",
+    "Missing form fields are not all supported as model inputs.",
+    "No calibrated per-vehicle prediction interval is provided."
+  ],
+  "artifact_sha256": "deec6d21c43c739aa9a6e1be2e6669ac5988a1d35d6b51aead38d1ea68a8659b",
+  "artifact_file": "scooter.joblib"
+}

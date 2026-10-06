@@ -1,0 +1,68 @@
+SmartSauda
+
+Run locally (PowerShell)
+
+1. Open a terminal in this folder and start the backend:
+   .\.venv\Scripts\python.exe -m uvicorn backend.app:create_app --factory --host 127.0.0.1 --port 8000
+
+2. Open a second terminal in the frontend folder:
+   npm run dev
+
+3. Open http://127.0.0.1:5173 in your browser.
+
+Keep both terminals open. Press Ctrl+C in each to stop the services.
+Internet access is required for the configured Supabase database.
+
+Setup on another computer
+
+Install Python 3.12 and Node.js 22 or newer. From the project folder:
+   py -3.12 -m venv .venv
+   .\.venv\Scripts\python.exe -m pip install -r requirements-backend.txt
+   .\.venv\Scripts\python.exe -m pip install -r requirements-dev.txt
+   .\.venv\Scripts\python.exe -m backend.manage init-env
+
+Set DATABASE_URL and the other settings in .env using .env.example.
+Do not share .env. Apply the database migrations:
+   .\.venv\Scripts\python.exe -m backend.manage migrate
+
+From the frontend folder:
+   npm ci
+   npm run build
+
+Checks
+
+From the project folder:
+   .\.venv\Scripts\python.exe -m pytest tests -q
+From the frontend folder:
+   npm run lint
+   npm run test:browser
+
+Models and data
+
+models/current.json selects the active model release.
+The trained models and their checksum manifests are required for prediction.
+data/processed/feasibility-v1 contains the 3,316-row training cohort.
+The original processed sources are retained for reproducibility.
+reports/phase2 contains the active release's split assignments, evaluation
+and held-out predictions, used by the model verification tests.
+
+Training on the old cohort is suspended following the Nepal market audit.
+See docs/NEPAL_MARKET_AUDIT.md for the quarantine and replacement-data plan.
+The active v1.1.0 release remains a historical demonstration, not a validated
+current-market valuation service. Public car predictions and car PDF exports
+are blocked with "Insufficient verified market data"; bike/scooter behavior
+is unchanged. No replacement model has been activated.
+See docs/CAR_MARKET_FOUR_PHASES.md for the research replacement dataset,
+candidate retraining, separate-publisher evaluation and deployment blockers.
+
+After reviewing and approving a replacement dataset, use a new version name
+and a configuration pointing to that dataset:
+   .\.venv\Scripts\python.exe -m ml.train --version v1.2.0 --config ml/reviewed-config.json
+This is an example; reviewed-config.json does not yet exist. Every input row
+must have training_eligible=True and configuration training_enabled=True.
+Training exports an inactive candidate by default. --activate additionally
+requires deployment_approved=True, after independent market evaluation.
+
+The models estimate historical Nepal prices using a fixed 2026 age basis.
+The original local CSV's provenance remains unverified. The public dataset
+license and attribution are in data/external/NOTICE.txt.

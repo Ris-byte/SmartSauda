@@ -1,0 +1,58 @@
+{
+  "model_version": "v1.1.0",
+  "created_at_utc": "2026-09-26T15:32:01.125776+00:00",
+  "feature_version": "1.0",
+  "approval": {
+    "phase_1_approved": true,
+    "date": "2026-09-26",
+    "user_instruction": "Authorize retraining after validation fixes",
+    "cohort": "3316 retained records; four suspect 1980 records quarantined. Fixed reference year 2026; eleven electric scooter engine capacities corrected from missing to zero using motor-power evidence. Historical prices unchanged.",
+    "modeling_approach": "Separate Car, Bike and Scooter models, as proposed at Gate 1; preserve source labels for split balancing and reporting only.",
+    "limitations_accepted_for_research": [
+      "reduced sample size",
+      "unverified user-file provenance",
+      "missing listing dates",
+      "historical price labels"
+    ]
+  },
+  "input_sha256": {
+    "data\\processed\\feasibility-v1\\vehicles.csv": "a5dc9518d04eaa906976a3aebdcd1e7760b812588b4948287084835b1322438f"
+  },
+  "source_code_sha256": {
+    "ml\\train.py": "761c62d95d076fd0af4215253ad83af6fd73ba3a73cf6433152b14871f9513f4",
+    "ml\\features.py": "e77dd9a2042d8d44ff798e52371e60ab831140397c3739d5a57be5cfa62d4632",
+    "ml\\config.json": "078b21b32405f2ce18622c026199e73eadb8a9521240b62df67ce5f2d0f39841"
+  },
+  "environment": {
+    "python": "3.12.10",
+    "scikit_learn": "1.9.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "joblib": "1.6.0"
+  },
+  "artifacts": {
+    "Car": {
+      "file": "car.joblib",
+      "sha256": "261b144503b824c30caf1286ef7a11b4aa77578fc486bf19633e5214220515ee",
+      "metadata_file": "car.json",
+      "metadata_sha256": "e51a8ddce03abb5ce1ecfb6d16642f43324b32cbe87796256b60a68e40f5e1ac"
+    },
+    "Bike": {
+      "file": "bike.joblib",
+      "sha256": "78381e28387cdc6badcc33fc3943eca6d1067b81c51878cf0fae3198c6caa1b1",
+      "metadata_file": "bike.json",
+      "metadata_sha256": "3e695681c9682d037d5553dad1561d6f0e42de9ceabc227d59b27c12770fc60a"
+    },
+    "Scooter": {
+      "file": "scooter.joblib",
+      "sha256": "deec6d21c43c739aa9a6e1be2e6669ac5988a1d35d6b51aead38d1ea68a8659b",
+      "metadata_file": "scooter.json",
+      "metadata_sha256": "f5e35fde281e9e9970f834b6a4b4dc3c787460347a2954a7acc49a11fb5ec9d8"
+    }
+  },
+  "fit_includes_test": false,
+  "split_assignments_sha256": "8ef72f89e19f8fe81f05c68dea5139ecb3a08e42cd461dee01bfc5156c79e3dd",
+  "test_predictions_sha256": "0a48e5cc7be4face62f01147878dda725e3c21c5d8b590295de737690bbc23eb",
+  "evaluation_sha256": "3c9fe1ea20ba2585420ac20f4e1855b0acba3c250d38d9da0bdb6aeb83ae18fe"
+}

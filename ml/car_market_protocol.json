@@ -1,0 +1,17 @@
+{
+  "target": "Nepal seller asking price in NPR",
+  "scope": "research_only_until_complete_external_and_evidence_validation",
+  "random_seed": 42,
+  "development_folds": 3,
+  "minimum_external_rows": 20,
+  "minimum_development_rows_per_segment": 10,
+  "minimum_external_rows_per_segment": 5,
+  "maximum_median_absolute_percentage_error": 20,
+  "minimum_fraction_within_30_percent": 0.8,
+  "maximum_absolute_mean_signed_percentage_error": 10,
+  "require_baseline_improvement": true,
+  "require_verified_listing_dates_and_freshness": true,
+  "require_verified_vehicle_independence": true,
+  "require_essential_specification_review": true,
+  "allow_automatic_activation": false
+}

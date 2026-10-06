@@ -1,0 +1,866 @@
+{
+  "model_version": "v1.1.0",
+  "vehicle_type": "Car",
+  "currency": "NPR",
+  "market": "Nepal",
+  "feature_version": "1.0",
+  "features": {
+    "numeric": [
+      "vehicle_age",
+      "km_driven",
+      "km_per_year",
+      "engine_capacity_cc",
+      "owner_count"
+    ],
+    "categorical": [
+      "brand",
+      "model",
+      "region",
+      "fuel_type",
+      "transmission",
+      "condition",
+      "body_type"
+    ]
+  },
+  "reference_year": 2026,
+  "catalog": [
+    {
+      "brand": "BYD",
+      "model": "Atto 3",
+      "training_rows": 18,
+      "min_year": 2022,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2022,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 20,
+        "fuel_types": [
+          "Electric"
+        ],
+        "engine_capacity_cc": [
+          0,
+          0
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual",
+          "Automatic"
+        ],
+        "body_types": [
+          "SUV"
+        ],
+        "km_driven_max": 220000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "BYD",
+      "model": "Dolphin",
+      "training_rows": 14,
+      "min_year": 2021,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2021,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 18,
+        "fuel_types": [
+          "Electric"
+        ],
+        "engine_capacity_cc": [
+          0,
+          0
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual",
+          "Automatic"
+        ],
+        "body_types": [
+          "SUV"
+        ],
+        "km_driven_max": 220000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "Amaze",
+      "training_rows": 35,
+      "min_year": 2011,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 46,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          796,
+          1999
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual",
+          "Automatic"
+        ],
+        "body_types": [
+          "SUV"
+        ],
+        "km_driven_max": 220000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "City",
+      "training_rows": 43,
+      "min_year": 2011,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 56,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          796,
+          1999
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual",
+          "Automatic"
+        ],
+        "body_types": [
+          "SUV"
+        ],
+        "km_driven_max": 220000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Creta",
+      "training_rows": 53,
+      "min_year": 2014,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2014,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 60,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          796,
+          1999
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual",
+          "Automatic"
+        ],
+        "body_types": [
+          "SUV"
+        ],
+        "km_driven_max": 220000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Grand i10",
+      "training_rows": 35,
+      "min_year": 2011,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 42,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          796,
+          1999
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual",
+          "Automatic"
+        ],
+        "body_types": [
+          "SUV"
+        ],
+        "km_driven_max": 220000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Verna",
+      "training_rows": 43,
+      "min_year": 2011,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 50,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          796,
+          1999
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual",
+          "Automatic"
+        ],
+        "body_types": [
+          "SUV"
+        ],
+        "km_driven_max": 220000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Hyundai",
+      "model": "i10",
+      "training_rows": 38,
+      "min_year": 2011,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 50,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          796,
+          1999
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual",
+          "Automatic"
+        ],
+        "body_types": [
+          "SUV"
+        ],
+        "km_driven_max": 220000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Hyundai",
+      "model": "i20",
+      "training_rows": 48,
+      "min_year": 2011,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 56,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          796,
+          1999
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual",
+          "Automatic"
+        ],
+        "body_types": [
+          "SUV"
+        ],
+        "km_driven_max": 220000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Kia",
+      "model": "Seltos",
+      "training_rows": 15,
+      "min_year": 2019,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2019,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 22,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          796,
+          1999
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual",
+          "Automatic"
+        ],
+        "body_types": [
+          "SUV"
+        ],
+        "km_driven_max": 220000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Kia",
+      "model": "Sonet",
+      "training_rows": 18,
+      "min_year": 2020,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2020,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 22,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          796,
+          1999
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual",
+          "Automatic"
+        ],
+        "body_types": [
+          "SUV"
+        ],
+        "km_driven_max": 220000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Kia",
+      "model": "Sportage",
+      "training_rows": 54,
+      "min_year": 2011,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 70,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          796,
+          1999
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual",
+          "Automatic"
+        ],
+        "body_types": [
+          "SUV"
+        ],
+        "km_driven_max": 220000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Mahindra",
+      "model": "Scorpio",
+      "training_rows": 45,
+      "min_year": 2011,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 57,
+        "fuel_types": [
+          "Diesel"
+        ],
+        "engine_capacity_cc": [
+          2179,
+          2755
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual",
+          "Automatic"
+        ],
+        "body_types": [
+          "SUV"
+        ],
+        "km_driven_max": 220000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Mahindra",
+      "model": "XUV500",
+      "training_rows": 44,
+      "min_year": 2011,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 54,
+        "fuel_types": [
+          "Diesel"
+        ],
+        "engine_capacity_cc": [
+          2179,
+          2755
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual",
+          "Automatic"
+        ],
+        "body_types": [
+          "SUV"
+        ],
+        "km_driven_max": 220000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Maruti Suzuki",
+      "model": "Alto",
+      "training_rows": 56,
+      "min_year": 2011,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 71,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          796,
+          1999
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual",
+          "Automatic"
+        ],
+        "body_types": [
+          "SUV"
+        ],
+        "km_driven_max": 220000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Maruti Suzuki",
+      "model": "Swift",
+      "training_rows": 48,
+      "min_year": 2011,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 60,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          796,
+          1999
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual",
+          "Automatic"
+        ],
+        "body_types": [
+          "SUV"
+        ],
+        "km_driven_max": 220000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Maruti Suzuki",
+      "model": "Wagon R",
+      "training_rows": 45,
+      "min_year": 2011,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 57,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          796,
+          1999
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual",
+          "Automatic"
+        ],
+        "body_types": [
+          "SUV"
+        ],
+        "km_driven_max": 220000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Nissan",
+      "model": "Magnite",
+      "training_rows": 17,
+      "min_year": 2020,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2020,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 23,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          796,
+          1999
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual",
+          "Automatic"
+        ],
+        "body_types": [
+          "SUV"
+        ],
+        "km_driven_max": 220000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Tata",
+      "model": "Nexon",
+      "training_rows": 28,
+      "min_year": 2017,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2017,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 34,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          796,
+          1999
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual",
+          "Automatic"
+        ],
+        "body_types": [
+          "SUV"
+        ],
+        "km_driven_max": 220000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Toyota",
+      "model": "Corolla",
+      "training_rows": 46,
+      "min_year": 2011,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 63,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          796,
+          1999
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual",
+          "Automatic"
+        ],
+        "body_types": [
+          "SUV"
+        ],
+        "km_driven_max": 220000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Toyota",
+      "model": "Fortuner",
+      "training_rows": 52,
+      "min_year": 2011,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 63,
+        "fuel_types": [
+          "Diesel"
+        ],
+        "engine_capacity_cc": [
+          2179,
+          2755
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual",
+          "Automatic"
+        ],
+        "body_types": [
+          "SUV"
+        ],
+        "km_driven_max": 220000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Toyota",
+      "model": "RAV4",
+      "training_rows": 48,
+      "min_year": 2011,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 61,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          796,
+          1999
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual",
+          "Automatic"
+        ],
+        "body_types": [
+          "SUV"
+        ],
+        "km_driven_max": 220000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Polo",
+      "training_rows": 45,
+      "min_year": 2011,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 55,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          796,
+          1999
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual",
+          "Automatic"
+        ],
+        "body_types": [
+          "SUV"
+        ],
+        "km_driven_max": 220000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    }
+  ],
+  "categorical_values": {
+    "brand": [
+      "byd",
+      "honda",
+      "hyundai",
+      "kia",
+      "mahindra",
+      "maruti suzuki",
+      "nissan",
+      "tata",
+      "toyota",
+      "volkswagen"
+    ],
+    "model": [
+      "alto",
+      "amaze",
+      "atto 3",
+      "city",
+      "corolla",
+      "creta",
+      "dolphin",
+      "fortuner",
+      "grand i10",
+      "i10",
+      "i20",
+      "magnite",
+      "nexon",
+      "polo",
+      "rav4",
+      "scorpio",
+      "seltos",
+      "sonet",
+      "sportage",
+      "swift",
+      "verna",
+      "wagon r",
+      "xuv500"
+    ],
+    "region": [
+      "bagmati",
+      "gandaki",
+      "karnali",
+      "koshi",
+      "lumbini",
+      "madhesh",
+      "sudurpashchim"
+    ],
+    "fuel_type": [
+      "diesel",
+      "electric",
+      "petrol"
+    ],
+    "transmission": [
+      "automatic",
+      "manual"
+    ],
+    "condition": [
+      "excellent",
+      "fair",
+      "good",
+      "poor"
+    ],
+    "body_type": [
+      "suv"
+    ]
+  },
+  "numeric_training_ranges": {
+    "vehicle_age": {
+      "min": 1.0,
+      "max": 15.0
+    },
+    "km_driven": {
+      "min": 2500.0,
+      "max": 220000.0
+    },
+    "km_per_year": {
+      "min": 1250.0,
+      "max": 27425.0
+    },
+    "engine_capacity_cc": {
+      "min": 0.0,
+      "max": 2755.0
+    },
+    "owner_count": {
+      "min": 1.0,
+      "max": 4.0
+    }
+  },
+  "fit_rows": 888,
+  "fit_sources": {
+    "nepal_user_2000": 888
+  },
+  "source_reference_years": {
+    "nepal_user_2000": [
+      2026
+    ]
+  },
+  "test_metrics": {
+    "n": 222,
+    "mae_npr": 81801.90687736643,
+    "rmse_npr": 119711.87496988078,
+    "r2": 0.9866390830364445,
+    "median_absolute_percentage_error": 6.573138414726784,
+    "within_20_percent": 0.9504504504504504
+  },
+  "test_metrics_by_source": {
+    "nepal_user_2000": {
+      "n": 222,
+      "mae_npr": 81801.90687736643,
+      "rmse_npr": 119711.87496988078,
+      "r2": 0.9866390830364445,
+      "median_absolute_percentage_error": 6.573138414726784,
+      "within_20_percent": 0.9504504504504504
+    }
+  },
+  "limitations": [
+    "Historical data; not adjusted to today's market prices.",
+    "User CSV provenance remains unverified; car data comes exclusively from that source.",
+    "Training and inference both use fixed reference year 2026; historical prices are not time-adjusted.",
+    "Catalog years describe observed support, not verified production dates; single observed years have a one-year padded window.",
+    "Missing form fields are not all supported as model inputs.",
+    "No calibrated per-vehicle prediction interval is provided."
+  ],
+  "artifact_sha256": "261b144503b824c30caf1286ef7a11b4aa77578fc486bf19633e5214220515ee",
+  "artifact_file": "car.joblib"
+}

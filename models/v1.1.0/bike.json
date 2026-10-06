@@ -1,0 +1,5127 @@
+{
+  "model_version": "v1.1.0",
+  "vehicle_type": "Bike",
+  "currency": "NPR",
+  "market": "Nepal",
+  "feature_version": "1.0",
+  "features": {
+    "numeric": [
+      "vehicle_age",
+      "km_driven",
+      "km_per_year",
+      "engine_capacity_cc"
+    ],
+    "categorical": [
+      "brand",
+      "model"
+    ]
+  },
+  "reference_year": 2026,
+  "catalog": [
+    {
+      "brand": "Aprilia",
+      "model": "SR 160",
+      "training_rows": 1,
+      "min_year": 2023,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2024,
+        "observed_max_year": 2024,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Asian Beast",
+      "model": "AB250 V1",
+      "training_rows": 1,
+      "min_year": 2020,
+      "max_year": 2021,
+      "constraints": {
+        "observed_min_year": 2020,
+        "observed_max_year": 2021,
+        "year_basis": "observed_range",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Asian Beast",
+      "model": "Hyper X",
+      "training_rows": 1,
+      "min_year": 2016,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2016,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "BMW",
+      "model": "G 310 R",
+      "training_rows": 1,
+      "min_year": 2019,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2019,
+        "observed_max_year": 2022,
+        "year_basis": "observed_range",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "Avenger 150 Street",
+      "training_rows": 3,
+      "min_year": 2016,
+      "max_year": 2020,
+      "constraints": {
+        "observed_min_year": 2016,
+        "observed_max_year": 2020,
+        "year_basis": "observed_range",
+        "catalog_rows": 4,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "Avenger 160 Street",
+      "training_rows": 4,
+      "min_year": 2018,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2018,
+        "observed_max_year": 2022,
+        "year_basis": "observed_range",
+        "catalog_rows": 4,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "Avenger 180 Street",
+      "training_rows": 3,
+      "min_year": 2010,
+      "max_year": 2018,
+      "constraints": {
+        "observed_min_year": 2010,
+        "observed_max_year": 2018,
+        "year_basis": "observed_range",
+        "catalog_rows": 3,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "Avenger 200",
+      "training_rows": 1,
+      "min_year": 2009,
+      "max_year": 2021,
+      "constraints": {
+        "observed_min_year": 2009,
+        "observed_max_year": 2021,
+        "year_basis": "observed_range",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "Avenger 220 Cruise",
+      "training_rows": 7,
+      "min_year": 2014,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2014,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 14,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "DISCOVER 150",
+      "training_rows": 4,
+      "min_year": 2012,
+      "max_year": 2016,
+      "constraints": {
+        "observed_min_year": 2012,
+        "observed_max_year": 2016,
+        "year_basis": "observed_range",
+        "catalog_rows": 4,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "Discover 125",
+      "training_rows": 5,
+      "min_year": 2006,
+      "max_year": 2013,
+      "constraints": {
+        "observed_min_year": 2006,
+        "observed_max_year": 2013,
+        "year_basis": "observed_range",
+        "catalog_rows": 6,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "Discover 125 M",
+      "training_rows": 1,
+      "min_year": 2013,
+      "max_year": 2015,
+      "constraints": {
+        "observed_min_year": 2014,
+        "observed_max_year": 2014,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "Discover 125 ST",
+      "training_rows": 4,
+      "min_year": 1986,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 1986,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 7,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "Discover 135",
+      "training_rows": 1,
+      "min_year": 2007,
+      "max_year": 2014,
+      "constraints": {
+        "observed_min_year": 2007,
+        "observed_max_year": 2014,
+        "year_basis": "observed_range",
+        "catalog_rows": 4,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "Dominar 250",
+      "training_rows": 0,
+      "min_year": 2021,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2022,
+        "observed_max_year": 2022,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "Dominar 400",
+      "training_rows": 8,
+      "min_year": 2003,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2003,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 10,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "NS 200 FI ABS",
+      "training_rows": 21,
+      "min_year": 2017,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2017,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 31,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "NS 400",
+      "training_rows": 3,
+      "min_year": 2016,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2016,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 4,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "Pulsar 125",
+      "training_rows": 6,
+      "min_year": 2020,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2020,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 6,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "Pulsar 150",
+      "training_rows": 113,
+      "min_year": 2007,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2007,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 143,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "Pulsar 150TD",
+      "training_rows": 17,
+      "min_year": 2018,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2018,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 19,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "Pulsar 180",
+      "training_rows": 9,
+      "min_year": 2012,
+      "max_year": 2021,
+      "constraints": {
+        "observed_min_year": 2012,
+        "observed_max_year": 2021,
+        "year_basis": "observed_range",
+        "catalog_rows": 11,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "Pulsar 220",
+      "training_rows": 57,
+      "min_year": 2011,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 67,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "Pulsar 220F",
+      "training_rows": 76,
+      "min_year": 2005,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2005,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 99,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "Pulsar AS 150",
+      "training_rows": 5,
+      "min_year": 2007,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2007,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 5,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "Pulsar AS 200",
+      "training_rows": 4,
+      "min_year": 2008,
+      "max_year": 2015,
+      "constraints": {
+        "observed_min_year": 2008,
+        "observed_max_year": 2015,
+        "year_basis": "observed_range",
+        "catalog_rows": 5,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "Pulsar N160",
+      "training_rows": 8,
+      "min_year": 2017,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2017,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 8,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "Pulsar N250",
+      "training_rows": 4,
+      "min_year": 2022,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2022,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 6,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "Pulsar NS 125",
+      "training_rows": 7,
+      "min_year": 2021,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2021,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 7,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "Pulsar NS 160",
+      "training_rows": 10,
+      "min_year": 2017,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2017,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 14,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "Pulsar NS 200",
+      "training_rows": 48,
+      "min_year": 2007,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2007,
+        "observed_max_year": 2022,
+        "year_basis": "observed_range",
+        "catalog_rows": 60,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "Pulsar NS 200 ABS",
+      "training_rows": 26,
+      "min_year": 2014,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2014,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 36,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "Pulsar NS 200 BS6 - Dual ABS",
+      "training_rows": 7,
+      "min_year": 2021,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2021,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 12,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "Pulsar NS200",
+      "training_rows": 42,
+      "min_year": 2011,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 49,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Bajaj",
+      "model": "V15",
+      "training_rows": 4,
+      "min_year": 2016,
+      "max_year": 2017,
+      "constraints": {
+        "observed_min_year": 2016,
+        "observed_max_year": 2017,
+        "year_basis": "observed_range",
+        "catalog_rows": 4,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Benelli",
+      "model": "180S",
+      "training_rows": 5,
+      "min_year": 2021,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2021,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 5,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Benelli",
+      "model": "302R",
+      "training_rows": 1,
+      "min_year": 2016,
+      "max_year": 2018,
+      "constraints": {
+        "observed_min_year": 2017,
+        "observed_max_year": 2017,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Benelli",
+      "model": "302S",
+      "training_rows": 2,
+      "min_year": 2016,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2016,
+        "observed_max_year": 2022,
+        "year_basis": "observed_range",
+        "catalog_rows": 4,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Benelli",
+      "model": "Leoncino 251",
+      "training_rows": 0,
+      "min_year": 2018,
+      "max_year": 2020,
+      "constraints": {
+        "observed_min_year": 2019,
+        "observed_max_year": 2019,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Benelli",
+      "model": "TNT 15",
+      "training_rows": 5,
+      "min_year": 2019,
+      "max_year": 2020,
+      "constraints": {
+        "observed_min_year": 2019,
+        "observed_max_year": 2020,
+        "year_basis": "observed_range",
+        "catalog_rows": 5,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Benelli",
+      "model": "TNT 150i",
+      "training_rows": 12,
+      "min_year": 2019,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2019,
+        "observed_max_year": 2022,
+        "year_basis": "observed_range",
+        "catalog_rows": 15,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Benelli",
+      "model": "TNT 25",
+      "training_rows": 2,
+      "min_year": 2015,
+      "max_year": 2017,
+      "constraints": {
+        "observed_min_year": 2016,
+        "observed_max_year": 2016,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Benelli",
+      "model": "TNT 300",
+      "training_rows": 7,
+      "min_year": 2016,
+      "max_year": 2018,
+      "constraints": {
+        "observed_min_year": 2016,
+        "observed_max_year": 2018,
+        "year_basis": "observed_range",
+        "catalog_rows": 8,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Benelli",
+      "model": "TRK 251",
+      "training_rows": 3,
+      "min_year": 2018,
+      "max_year": 2020,
+      "constraints": {
+        "observed_min_year": 2019,
+        "observed_max_year": 2019,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 3,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "CFMoto",
+      "model": "150NK",
+      "training_rows": 2,
+      "min_year": 2017,
+      "max_year": 2018,
+      "constraints": {
+        "observed_min_year": 2017,
+        "observed_max_year": 2018,
+        "year_basis": "observed_range",
+        "catalog_rows": 3,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "CFMoto",
+      "model": "250NK",
+      "training_rows": 7,
+      "min_year": 2018,
+      "max_year": 2019,
+      "constraints": {
+        "observed_min_year": 2018,
+        "observed_max_year": 2019,
+        "year_basis": "observed_range",
+        "catalog_rows": 9,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Cosmic",
+      "model": "Cosmic",
+      "training_rows": 1,
+      "min_year": 2003,
+      "max_year": 2005,
+      "constraints": {
+        "observed_min_year": 2004,
+        "observed_max_year": 2004,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Cross X",
+      "model": "250R",
+      "training_rows": 2,
+      "min_year": 2018,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2018,
+        "observed_max_year": 2022,
+        "year_basis": "observed_range",
+        "catalog_rows": 3,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Cross X",
+      "model": "250SE Motard",
+      "training_rows": 0,
+      "min_year": 2017,
+      "max_year": 2018,
+      "constraints": {
+        "observed_min_year": 2017,
+        "observed_max_year": 2018,
+        "year_basis": "observed_range",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Crossfire",
+      "model": "GR7 250",
+      "training_rows": 7,
+      "min_year": 2019,
+      "max_year": 2020,
+      "constraints": {
+        "observed_min_year": 2019,
+        "observed_max_year": 2020,
+        "year_basis": "observed_range",
+        "catalog_rows": 7,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Crossfire",
+      "model": "HJ 250",
+      "training_rows": 8,
+      "min_year": 2020,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2020,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 12,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Crossfire",
+      "model": "RM 250",
+      "training_rows": 3,
+      "min_year": 2020,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2020,
+        "observed_max_year": 2022,
+        "year_basis": "observed_range",
+        "catalog_rows": 3,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Crossfire",
+      "model": "Tracker 250",
+      "training_rows": 8,
+      "min_year": 2021,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2021,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 8,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Crossfire",
+      "model": "XZ 250R",
+      "training_rows": 3,
+      "min_year": 2016,
+      "max_year": 2019,
+      "constraints": {
+        "observed_min_year": 2016,
+        "observed_max_year": 2019,
+        "year_basis": "observed_range",
+        "catalog_rows": 4,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Ducati",
+      "model": "Hypermotard 796",
+      "training_rows": 1,
+      "min_year": 2022,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2023,
+        "observed_max_year": 2023,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Ducati",
+      "model": "Scrambler Icon",
+      "training_rows": 1,
+      "min_year": 2019,
+      "max_year": 2021,
+      "constraints": {
+        "observed_min_year": 2020,
+        "observed_max_year": 2020,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Hartford",
+      "model": "VR 220H",
+      "training_rows": 1,
+      "min_year": 2017,
+      "max_year": 2019,
+      "constraints": {
+        "observed_min_year": 2018,
+        "observed_max_year": 2018,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Hartford",
+      "model": "VR150H",
+      "training_rows": 5,
+      "min_year": 2009,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2009,
+        "observed_max_year": 2022,
+        "year_basis": "observed_range",
+        "catalog_rows": 7,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Hero",
+      "model": "CBZ",
+      "training_rows": 4,
+      "min_year": 2009,
+      "max_year": 2013,
+      "constraints": {
+        "observed_min_year": 2009,
+        "observed_max_year": 2013,
+        "year_basis": "observed_range",
+        "catalog_rows": 5,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Hero",
+      "model": "Glamour",
+      "training_rows": 4,
+      "min_year": 2014,
+      "max_year": 2021,
+      "constraints": {
+        "observed_min_year": 2014,
+        "observed_max_year": 2021,
+        "year_basis": "observed_range",
+        "catalog_rows": 4,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Hero",
+      "model": "Hunk 150R",
+      "training_rows": 8,
+      "min_year": 2009,
+      "max_year": 2021,
+      "constraints": {
+        "observed_min_year": 2009,
+        "observed_max_year": 2021,
+        "year_basis": "observed_range",
+        "catalog_rows": 8,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Hero",
+      "model": "Splendor",
+      "training_rows": 4,
+      "min_year": 2000,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2000,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 6,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Hero",
+      "model": "Splendor Plus",
+      "training_rows": 4,
+      "min_year": 2002,
+      "max_year": 2014,
+      "constraints": {
+        "observed_min_year": 2002,
+        "observed_max_year": 2014,
+        "year_basis": "observed_range",
+        "catalog_rows": 4,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Hero",
+      "model": "Super Splendor",
+      "training_rows": 12,
+      "min_year": 2009,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2009,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 18,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Hero",
+      "model": "XPulse 200",
+      "training_rows": 24,
+      "min_year": 2017,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2017,
+        "observed_max_year": 2022,
+        "year_basis": "observed_range",
+        "catalog_rows": 30,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Hero",
+      "model": "XPulse 200 4V",
+      "training_rows": 7,
+      "min_year": 2022,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2022,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 9,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Hero",
+      "model": "XPulse 200T",
+      "training_rows": 1,
+      "min_year": 2019,
+      "max_year": 2021,
+      "constraints": {
+        "observed_min_year": 2020,
+        "observed_max_year": 2020,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Hero",
+      "model": "XTreme 160R",
+      "training_rows": 3,
+      "min_year": 2012,
+      "max_year": 2021,
+      "constraints": {
+        "observed_min_year": 2012,
+        "observed_max_year": 2021,
+        "year_basis": "observed_range",
+        "catalog_rows": 3,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Hero",
+      "model": "XTreme 200R",
+      "training_rows": 4,
+      "min_year": 2017,
+      "max_year": 2019,
+      "constraints": {
+        "observed_min_year": 2017,
+        "observed_max_year": 2019,
+        "year_basis": "observed_range",
+        "catalog_rows": 5,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Hero",
+      "model": "iSmart 110",
+      "training_rows": 3,
+      "min_year": 2010,
+      "max_year": 2020,
+      "constraints": {
+        "observed_min_year": 2010,
+        "observed_max_year": 2020,
+        "year_basis": "observed_range",
+        "catalog_rows": 5,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "CB Hornet 160R",
+      "training_rows": 8,
+      "min_year": 2016,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2016,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 12,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "CB Hornet 2.0",
+      "training_rows": 1,
+      "min_year": 2022,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2023,
+        "observed_max_year": 2023,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "CB Shine",
+      "training_rows": 24,
+      "min_year": 2009,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2009,
+        "observed_max_year": 2022,
+        "year_basis": "observed_range",
+        "catalog_rows": 27,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "CB Shine SP",
+      "training_rows": 6,
+      "min_year": 2018,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2018,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 7,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "CB Trigger",
+      "training_rows": 4,
+      "min_year": 2015,
+      "max_year": 2016,
+      "constraints": {
+        "observed_min_year": 2015,
+        "observed_max_year": 2016,
+        "year_basis": "observed_range",
+        "catalog_rows": 4,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "CB Twister",
+      "training_rows": 0,
+      "min_year": 2010,
+      "max_year": 2012,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2011,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "CB Unicorn 150",
+      "training_rows": 13,
+      "min_year": 2008,
+      "max_year": 2021,
+      "constraints": {
+        "observed_min_year": 2008,
+        "observed_max_year": 2021,
+        "year_basis": "observed_range",
+        "catalog_rows": 15,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "CB Unicorn 160",
+      "training_rows": 6,
+      "min_year": 2014,
+      "max_year": 2020,
+      "constraints": {
+        "observed_min_year": 2014,
+        "observed_max_year": 2020,
+        "year_basis": "observed_range",
+        "catalog_rows": 9,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "CB350 RS",
+      "training_rows": 1,
+      "min_year": 2020,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2021,
+        "observed_max_year": 2021,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "CBR 250R",
+      "training_rows": 3,
+      "min_year": 2013,
+      "max_year": 2018,
+      "constraints": {
+        "observed_min_year": 2013,
+        "observed_max_year": 2018,
+        "year_basis": "observed_range",
+        "catalog_rows": 4,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "CD 110 Dream",
+      "training_rows": 3,
+      "min_year": 1997,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 1997,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 3,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "CRF250 Rally",
+      "training_rows": 1,
+      "min_year": 2016,
+      "max_year": 2018,
+      "constraints": {
+        "observed_min_year": 2017,
+        "observed_max_year": 2017,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "CRF250L",
+      "training_rows": 1,
+      "min_year": 2018,
+      "max_year": 2020,
+      "constraints": {
+        "observed_min_year": 2019,
+        "observed_max_year": 2019,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "CRF300 Rally",
+      "training_rows": 1,
+      "min_year": 2020,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2021,
+        "observed_max_year": 2021,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "Shine",
+      "training_rows": 48,
+      "min_year": 2011,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 57,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "Stunner",
+      "training_rows": 2,
+      "min_year": 2011,
+      "max_year": 2013,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2013,
+        "year_basis": "observed_range",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "XBlade",
+      "training_rows": 3,
+      "min_year": 2017,
+      "max_year": 2018,
+      "constraints": {
+        "observed_min_year": 2017,
+        "observed_max_year": 2018,
+        "year_basis": "observed_range",
+        "catalog_rows": 3,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "XR 125",
+      "training_rows": 1,
+      "min_year": 2013,
+      "max_year": 2015,
+      "constraints": {
+        "observed_min_year": 2014,
+        "observed_max_year": 2014,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "XR 150L",
+      "training_rows": 4,
+      "min_year": 2016,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2016,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 5,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Honda",
+      "model": "XR 190L",
+      "training_rows": 3,
+      "min_year": 2018,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2018,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 4,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Husqvarna",
+      "model": "Svartpilen 250",
+      "training_rows": 3,
+      "min_year": 2020,
+      "max_year": 2021,
+      "constraints": {
+        "observed_min_year": 2020,
+        "observed_max_year": 2021,
+        "year_basis": "observed_range",
+        "catalog_rows": 3,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Husqvarna",
+      "model": "Vitpilen 250",
+      "training_rows": 1,
+      "min_year": 2021,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2022,
+        "observed_max_year": 2022,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Jawa Yezdi",
+      "model": "Classic",
+      "training_rows": 1,
+      "min_year": 2020,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2021,
+        "observed_max_year": 2021,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Jawa Yezdi",
+      "model": "Forty Two",
+      "training_rows": 4,
+      "min_year": 2020,
+      "max_year": 2021,
+      "constraints": {
+        "observed_min_year": 2020,
+        "observed_max_year": 2021,
+        "year_basis": "observed_range",
+        "catalog_rows": 4,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Jawa Yezdi",
+      "model": "Perak",
+      "training_rows": 1,
+      "min_year": 2020,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2021,
+        "observed_max_year": 2021,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Jawa Yezdi",
+      "model": "Roadster",
+      "training_rows": 1,
+      "min_year": 2022,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2023,
+        "observed_max_year": 2023,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Jawa Yezdi",
+      "model": "Scrambler",
+      "training_rows": 1,
+      "min_year": 2022,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2023,
+        "observed_max_year": 2023,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "KTM",
+      "model": "Adventure 250",
+      "training_rows": 5,
+      "min_year": 2019,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2019,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 6,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "KTM",
+      "model": "Duke 200",
+      "training_rows": 40,
+      "min_year": 2012,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2012,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 45,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "KTM",
+      "model": "Duke 250",
+      "training_rows": 15,
+      "min_year": 2017,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2017,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 19,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "KTM",
+      "model": "Duke 390",
+      "training_rows": 4,
+      "min_year": 2013,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2013,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 4,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "KTM",
+      "model": "RC 200",
+      "training_rows": 9,
+      "min_year": 2014,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2014,
+        "observed_max_year": 2022,
+        "year_basis": "observed_range",
+        "catalog_rows": 10,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "KTM",
+      "model": "RC 390",
+      "training_rows": 0,
+      "min_year": 2014,
+      "max_year": 2017,
+      "constraints": {
+        "observed_min_year": 2014,
+        "observed_max_year": 2017,
+        "year_basis": "observed_range",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Kayo",
+      "model": "K6",
+      "training_rows": 0,
+      "min_year": 2013,
+      "max_year": 2015,
+      "constraints": {
+        "observed_min_year": 2014,
+        "observed_max_year": 2014,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Kayo",
+      "model": "T2",
+      "training_rows": 1,
+      "min_year": 2021,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2022,
+        "observed_max_year": 2022,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Kayo",
+      "model": "T4",
+      "training_rows": 0,
+      "min_year": 2017,
+      "max_year": 2019,
+      "constraints": {
+        "observed_min_year": 2018,
+        "observed_max_year": 2018,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Motorhead",
+      "model": "MH 200X",
+      "training_rows": 2,
+      "min_year": 2020,
+      "max_year": 2021,
+      "constraints": {
+        "observed_min_year": 2020,
+        "observed_max_year": 2021,
+        "year_basis": "observed_range",
+        "catalog_rows": 3,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Motorhead",
+      "model": "Scrambler 250",
+      "training_rows": 3,
+      "min_year": 2021,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2021,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 3,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Motorhead",
+      "model": "Sports 250",
+      "training_rows": 5,
+      "min_year": 2019,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2019,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 5,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Motorhead",
+      "model": "Tekken 250",
+      "training_rows": 2,
+      "min_year": 2019,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2019,
+        "observed_max_year": 2022,
+        "year_basis": "observed_range",
+        "catalog_rows": 3,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Motorhead",
+      "model": "X Torque 250",
+      "training_rows": 2,
+      "min_year": 2020,
+      "max_year": 2021,
+      "constraints": {
+        "observed_min_year": 2020,
+        "observed_max_year": 2021,
+        "year_basis": "observed_range",
+        "catalog_rows": 3,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Royal Enfield",
+      "model": "Bullet",
+      "training_rows": 1,
+      "min_year": 2019,
+      "max_year": 2021,
+      "constraints": {
+        "observed_min_year": 2020,
+        "observed_max_year": 2020,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Royal Enfield",
+      "model": "Bullet 350",
+      "training_rows": 19,
+      "min_year": 2009,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2009,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 21,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Royal Enfield",
+      "model": "Classic 350",
+      "training_rows": 79,
+      "min_year": 2011,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 107,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Royal Enfield",
+      "model": "Classic 500",
+      "training_rows": 3,
+      "min_year": 2014,
+      "max_year": 2018,
+      "constraints": {
+        "observed_min_year": 2014,
+        "observed_max_year": 2018,
+        "year_basis": "observed_range",
+        "catalog_rows": 3,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Royal Enfield",
+      "model": "Himalayan",
+      "training_rows": 2,
+      "min_year": 2016,
+      "max_year": 2017,
+      "constraints": {
+        "observed_min_year": 2016,
+        "observed_max_year": 2017,
+        "year_basis": "observed_range",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Royal Enfield",
+      "model": "Hunter 350 Dapper",
+      "training_rows": 1,
+      "min_year": 2023,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2023,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Royal Enfield",
+      "model": "Hunter 350 Factory",
+      "training_rows": 0,
+      "min_year": 2023,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2024,
+        "observed_max_year": 2024,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Royal Enfield",
+      "model": "Hunter 350 Rebel",
+      "training_rows": 0,
+      "min_year": 2023,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2023,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Royal Enfield",
+      "model": "Meteor 350",
+      "training_rows": 4,
+      "min_year": 2021,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2021,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 4,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Royal Enfield",
+      "model": "Scram 411",
+      "training_rows": 1,
+      "min_year": 2023,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2024,
+        "observed_max_year": 2024,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Royal Enfield",
+      "model": "Standard 350",
+      "training_rows": 0,
+      "min_year": 1987,
+      "max_year": 1989,
+      "constraints": {
+        "observed_min_year": 1988,
+        "observed_max_year": 1988,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Royal Enfield",
+      "model": "Thunderbird X 350",
+      "training_rows": 2,
+      "min_year": 2018,
+      "max_year": 2020,
+      "constraints": {
+        "observed_min_year": 2019,
+        "observed_max_year": 2019,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Runner",
+      "model": "Knight Rider",
+      "training_rows": 1,
+      "min_year": 2017,
+      "max_year": 2018,
+      "constraints": {
+        "observed_min_year": 2017,
+        "observed_max_year": 2018,
+        "year_basis": "observed_range",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Runner",
+      "model": "Turbo",
+      "training_rows": 1,
+      "min_year": 2023,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2024,
+        "observed_max_year": 2024,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "SYM",
+      "model": "NH T200",
+      "training_rows": 1,
+      "min_year": 2020,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2021,
+        "observed_max_year": 2021,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Suzuki",
+      "model": "GS150R",
+      "training_rows": 1,
+      "min_year": 2010,
+      "max_year": 2016,
+      "constraints": {
+        "observed_min_year": 2010,
+        "observed_max_year": 2016,
+        "year_basis": "observed_range",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Suzuki",
+      "model": "GSXR 600 K4",
+      "training_rows": 2,
+      "min_year": 2004,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2004,
+        "observed_max_year": 2022,
+        "year_basis": "observed_range",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Suzuki",
+      "model": "Gixxer 150",
+      "training_rows": 22,
+      "min_year": 2014,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2014,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 27,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Suzuki",
+      "model": "Gixxer 250",
+      "training_rows": 2,
+      "min_year": 2018,
+      "max_year": 2020,
+      "constraints": {
+        "observed_min_year": 2019,
+        "observed_max_year": 2019,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Suzuki",
+      "model": "Gixxer SF 150",
+      "training_rows": 2,
+      "min_year": 2015,
+      "max_year": 2020,
+      "constraints": {
+        "observed_min_year": 2015,
+        "observed_max_year": 2020,
+        "year_basis": "observed_range",
+        "catalog_rows": 3,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Suzuki",
+      "model": "Gixxer SF 250",
+      "training_rows": 2,
+      "min_year": 2019,
+      "max_year": 2021,
+      "constraints": {
+        "observed_min_year": 2019,
+        "observed_max_year": 2021,
+        "year_basis": "observed_range",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Suzuki",
+      "model": "Hayate EP",
+      "training_rows": 1,
+      "min_year": 2019,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2019,
+        "observed_max_year": 2022,
+        "year_basis": "observed_range",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Suzuki",
+      "model": "Intruder",
+      "training_rows": 2,
+      "min_year": 2012,
+      "max_year": 2018,
+      "constraints": {
+        "observed_min_year": 2012,
+        "observed_max_year": 2018,
+        "year_basis": "observed_range",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Suzuki",
+      "model": "Slingshot",
+      "training_rows": 1,
+      "min_year": 2010,
+      "max_year": 2012,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2011,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "TARO",
+      "model": "Imola 150",
+      "training_rows": 1,
+      "min_year": 2021,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2022,
+        "observed_max_year": 2022,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "TVS",
+      "model": "Apache RR 310",
+      "training_rows": 2,
+      "min_year": 2019,
+      "max_year": 2021,
+      "constraints": {
+        "observed_min_year": 2019,
+        "observed_max_year": 2021,
+        "year_basis": "observed_range",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "TVS",
+      "model": "Apache RTR 160",
+      "training_rows": 42,
+      "min_year": 2011,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 57,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "TVS",
+      "model": "Apache RTR 160 2V",
+      "training_rows": 9,
+      "min_year": 2012,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2012,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 12,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "TVS",
+      "model": "Apache RTR 160 4V",
+      "training_rows": 20,
+      "min_year": 2018,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2018,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 24,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "TVS",
+      "model": "Apache RTR 160 4V Refresh",
+      "training_rows": 6,
+      "min_year": 2020,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2020,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 7,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "TVS",
+      "model": "Apache RTR 180 2V",
+      "training_rows": 6,
+      "min_year": 2013,
+      "max_year": 2020,
+      "constraints": {
+        "observed_min_year": 2013,
+        "observed_max_year": 2020,
+        "year_basis": "observed_range",
+        "catalog_rows": 10,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "TVS",
+      "model": "Apache RTR 200 4V",
+      "training_rows": 43,
+      "min_year": 2016,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2016,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 56,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "TVS",
+      "model": "Radeon",
+      "training_rows": 1,
+      "min_year": 2021,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2021,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "TVS",
+      "model": "Raider 125",
+      "training_rows": 18,
+      "min_year": 2021,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2021,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 20,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "TVS",
+      "model": "Ronin",
+      "training_rows": 1,
+      "min_year": 2023,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2024,
+        "observed_max_year": 2024,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "TVS",
+      "model": "Star City",
+      "training_rows": 1,
+      "min_year": 2010,
+      "max_year": 2012,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2011,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "TVS",
+      "model": "Stryker 125",
+      "training_rows": 2,
+      "min_year": 2018,
+      "max_year": 2019,
+      "constraints": {
+        "observed_min_year": 2018,
+        "observed_max_year": 2019,
+        "year_basis": "observed_range",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "Enticer",
+      "training_rows": 1,
+      "min_year": 2002,
+      "max_year": 2004,
+      "constraints": {
+        "observed_min_year": 2003,
+        "observed_max_year": 2003,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "FZ 25",
+      "training_rows": 19,
+      "min_year": 2017,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2017,
+        "observed_max_year": 2022,
+        "year_basis": "observed_range",
+        "catalog_rows": 21,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "FZ V1",
+      "training_rows": 6,
+      "min_year": 2012,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2012,
+        "observed_max_year": 2022,
+        "year_basis": "observed_range",
+        "catalog_rows": 6,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "FZ V2",
+      "training_rows": 18,
+      "min_year": 2016,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2016,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 21,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "FZ V3",
+      "training_rows": 23,
+      "min_year": 2019,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2019,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 30,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "FZ-X",
+      "training_rows": 2,
+      "min_year": 2022,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2022,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 3,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "FZS V2",
+      "training_rows": 32,
+      "min_year": 2014,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2014,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 40,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "FZS V3",
+      "training_rows": 29,
+      "min_year": 2019,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2019,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 32,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "Fazer 25",
+      "training_rows": 1,
+      "min_year": 2018,
+      "max_year": 2020,
+      "constraints": {
+        "observed_min_year": 2019,
+        "observed_max_year": 2019,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "Gladiator",
+      "training_rows": 0,
+      "min_year": 2009,
+      "max_year": 2011,
+      "constraints": {
+        "observed_min_year": 2010,
+        "observed_max_year": 2010,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "MT-15",
+      "training_rows": 41,
+      "min_year": 2018,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2018,
+        "observed_max_year": 2025,
+        "year_basis": "observed_range",
+        "catalog_rows": 52,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "R15 V1",
+      "training_rows": 3,
+      "min_year": 2011,
+      "max_year": 2016,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2016,
+        "year_basis": "observed_range",
+        "catalog_rows": 3,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "R15 V2",
+      "training_rows": 2,
+      "min_year": 2010,
+      "max_year": 2014,
+      "constraints": {
+        "observed_min_year": 2010,
+        "observed_max_year": 2014,
+        "year_basis": "observed_range",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "R15 V3",
+      "training_rows": 20,
+      "min_year": 2018,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2018,
+        "observed_max_year": 2022,
+        "year_basis": "observed_range",
+        "catalog_rows": 20,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "R15 V4",
+      "training_rows": 10,
+      "min_year": 2022,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2022,
+        "observed_max_year": 2024,
+        "year_basis": "observed_range",
+        "catalog_rows": 11,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "R15M",
+      "training_rows": 3,
+      "min_year": 2022,
+      "max_year": 2023,
+      "constraints": {
+        "observed_min_year": 2022,
+        "observed_max_year": 2023,
+        "year_basis": "observed_range",
+        "catalog_rows": 5,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "SZ-RR",
+      "training_rows": 7,
+      "min_year": 2011,
+      "max_year": 2020,
+      "constraints": {
+        "observed_min_year": 2011,
+        "observed_max_year": 2020,
+        "year_basis": "observed_range",
+        "catalog_rows": 9,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "Saluto",
+      "training_rows": 3,
+      "min_year": 2017,
+      "max_year": 2018,
+      "constraints": {
+        "observed_min_year": 2017,
+        "observed_max_year": 2018,
+        "year_basis": "observed_range",
+        "catalog_rows": 3,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "XTZ 150",
+      "training_rows": 2,
+      "min_year": 2020,
+      "max_year": 2022,
+      "constraints": {
+        "observed_min_year": 2020,
+        "observed_max_year": 2022,
+        "year_basis": "observed_range",
+        "catalog_rows": 4,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "YBR",
+      "training_rows": 1,
+      "min_year": 2010,
+      "max_year": 2011,
+      "constraints": {
+        "observed_min_year": 2010,
+        "observed_max_year": 2011,
+        "year_basis": "observed_range",
+        "catalog_rows": 2,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Yamaha",
+      "model": "YZF R3",
+      "training_rows": 1,
+      "min_year": 2016,
+      "max_year": 2018,
+      "constraints": {
+        "observed_min_year": 2017,
+        "observed_max_year": 2017,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Zongshen",
+      "model": "ZT6",
+      "training_rows": 1,
+      "min_year": 2023,
+      "max_year": 2025,
+      "constraints": {
+        "observed_min_year": 2024,
+        "observed_max_year": 2024,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Zontes",
+      "model": "T310",
+      "training_rows": 1,
+      "min_year": 2022,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2023,
+        "observed_max_year": 2023,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Zontes",
+      "model": "T350",
+      "training_rows": 0,
+      "min_year": 2022,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2023,
+        "observed_max_year": 2023,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 1,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    },
+    {
+      "brand": "Zontes",
+      "model": "ZT 125 U1",
+      "training_rows": 3,
+      "min_year": 2022,
+      "max_year": 2024,
+      "constraints": {
+        "observed_min_year": 2023,
+        "observed_max_year": 2023,
+        "year_basis": "observed_single_year_padded",
+        "catalog_rows": 3,
+        "fuel_types": [
+          "Petrol"
+        ],
+        "engine_capacity_cc": [
+          80,
+          803
+        ],
+        "motor_power_kw": null,
+        "transmissions": [
+          "Manual"
+        ],
+        "body_types": [],
+        "km_driven_max": 500000,
+        "km_per_year_max": 44000,
+        "reference_year": 2026
+      }
+    }
+  ],
+  "categorical_values": {
+    "brand": [
+      "aprilia",
+      "asian beast",
+      "bajaj",
+      "benelli",
+      "bmw",
+      "cfmoto",
+      "cosmic",
+      "cross x",
+      "crossfire",
+      "ducati",
+      "hartford",
+      "hero",
+      "honda",
+      "husqvarna",
+      "jawa yezdi",
+      "kayo",
+      "ktm",
+      "motorhead",
+      "royal enfield",
+      "runner",
+      "suzuki",
+      "sym",
+      "taro",
+      "tvs",
+      "yamaha",
+      "zongshen",
+      "zontes"
+    ],
+    "model": [
+      "150nk",
+      "180s",
+      "250nk",
+      "250r",
+      "302r",
+      "302s",
+      "ab250 v1",
+      "adventure 250",
+      "apache rr 310",
+      "apache rtr 160",
+      "apache rtr 160 2v",
+      "apache rtr 160 4v",
+      "apache rtr 160 4v refresh",
+      "apache rtr 180 2v",
+      "apache rtr 200 4v",
+      "avenger 150 street",
+      "avenger 160 street",
+      "avenger 180 street",
+      "avenger 200",
+      "avenger 220 cruise",
+      "bullet",
+      "bullet 350",
+      "cb hornet 160r",
+      "cb hornet 2.0",
+      "cb shine",
+      "cb shine sp",
+      "cb trigger",
+      "cb unicorn 150",
+      "cb unicorn 160",
+      "cb350 rs",
+      "cbr 250r",
+      "cbz",
+      "cd 110 dream",
+      "classic",
+      "classic 350",
+      "classic 500",
+      "cosmic",
+      "crf250 rally",
+      "crf250l",
+      "crf300 rally",
+      "discover 125",
+      "discover 125 m",
+      "discover 125 st",
+      "discover 135",
+      "discover 150",
+      "dominar 400",
+      "duke 200",
+      "duke 250",
+      "duke 390",
+      "enticer",
+      "fazer 25",
+      "forty two",
+      "fz 25",
+      "fz v1",
+      "fz v2",
+      "fz v3",
+      "fz-x",
+      "fzs v2",
+      "fzs v3",
+      "g 310 r",
+      "gixxer 150",
+      "gixxer 250",
+      "gixxer sf 150",
+      "gixxer sf 250",
+      "glamour",
+      "gr7 250",
+      "gs150r",
+      "gsxr 600 k4",
+      "hayate ep",
+      "himalayan",
+      "hj 250",
+      "hunk 150r",
+      "hunter 350 dapper",
+      "hyper x",
+      "hypermotard 796",
+      "imola 150",
+      "intruder",
+      "ismart 110",
+      "knight rider",
+      "meteor 350",
+      "mh 200x",
+      "mt-15",
+      "nh t200",
+      "ns 200 fi abs",
+      "ns 400",
+      "perak",
+      "pulsar 125",
+      "pulsar 150",
+      "pulsar 150td",
+      "pulsar 180",
+      "pulsar 220",
+      "pulsar 220f",
+      "pulsar as 150",
+      "pulsar as 200",
+      "pulsar n160",
+      "pulsar n250",
+      "pulsar ns 125",
+      "pulsar ns 160",
+      "pulsar ns 200",
+      "pulsar ns 200 abs",
+      "pulsar ns 200 bs6 - dual abs",
+      "pulsar ns200",
+      "r15 v1",
+      "r15 v2",
+      "r15 v3",
+      "r15 v4",
+      "r15m",
+      "radeon",
+      "raider 125",
+      "rc 200",
+      "rm 250",
+      "roadster",
+      "ronin",
+      "saluto",
+      "scram 411",
+      "scrambler",
+      "scrambler 250",
+      "scrambler icon",
+      "shine",
+      "slingshot",
+      "splendor",
+      "splendor plus",
+      "sports 250",
+      "sr 160",
+      "star city",
+      "stryker 125",
+      "stunner",
+      "super splendor",
+      "svartpilen 250",
+      "sz-rr",
+      "t2",
+      "t310",
+      "tekken 250",
+      "thunderbird x 350",
+      "tnt 15",
+      "tnt 150i",
+      "tnt 25",
+      "tnt 300",
+      "tracker 250",
+      "trk 251",
+      "turbo",
+      "v15",
+      "vitpilen 250",
+      "vr 220h",
+      "vr150h",
+      "x torque 250",
+      "xblade",
+      "xpulse 200",
+      "xpulse 200 4v",
+      "xpulse 200t",
+      "xr 125",
+      "xr 150l",
+      "xr 190l",
+      "xtreme 160r",
+      "xtreme 200r",
+      "xtz 150",
+      "xz 250r",
+      "ybr",
+      "yzf r3",
+      "zt 125 u1",
+      "zt6"
+    ]
+  },
+  "numeric_training_ranges": {
+    "vehicle_age": {
+      "min": 1.0,
+      "max": 40.0
+    },
+    "km_driven": {
+      "min": 0.0,
+      "max": 500000.0
+    },
+    "km_per_year": {
+      "min": 0.0,
+      "max": 35714.28571428572
+    },
+    "engine_capacity_cc": {
+      "min": 80.0,
+      "max": 803.0
+    }
+  },
+  "fit_rows": 1440,
+  "fit_sources": {
+    "nepal_bikebazar_2025": 1127,
+    "nepal_user_2000": 313
+  },
+  "source_reference_years": {
+    "nepal_bikebazar_2025": [
+      2026
+    ],
+    "nepal_user_2000": [
+      2026
+    ]
+  },
+  "test_metrics": {
+    "n": 360,
+    "mae_npr": 41948.30002220175,
+    "rmse_npr": 68938.16994414832,
+    "r2": 0.7809251205792132,
+    "median_absolute_percentage_error": 12.879497689889469,
+    "within_20_percent": 0.6583333333333333
+  },
+  "test_metrics_by_source": {
+    "nepal_bikebazar_2025": {
+      "n": 282,
+      "mae_npr": 47981.0672889127,
+      "rmse_npr": 75689.63554102884,
+      "r2": 0.7490648947644358,
+      "median_absolute_percentage_error": 14.042220167120286,
+      "within_20_percent": 0.6312056737588653
+    },
+    "nepal_user_2000": {
+      "n": 78,
+      "mae_npr": 20137.526057939107,
+      "rmse_npr": 34960.40934807978,
+      "r2": 0.6754631180239083,
+      "median_absolute_percentage_error": 9.159786538993142,
+      "within_20_percent": 0.7564102564102564
+    }
+  },
+  "limitations": [
+    "Historical data; not adjusted to today's market prices.",
+    "User CSV provenance remains unverified; car data comes exclusively from that source.",
+    "Training and inference both use fixed reference year 2026; historical prices are not time-adjusted.",
+    "Catalog years describe observed support, not verified production dates; single observed years have a one-year padded window.",
+    "Missing form fields are not all supported as model inputs.",
+    "No calibrated per-vehicle prediction interval is provided."
+  ],
+  "artifact_sha256": "78381e28387cdc6badcc33fc3943eca6d1067b81c51878cf0fae3198c6caa1b1",
+  "artifact_file": "bike.joblib"
+}

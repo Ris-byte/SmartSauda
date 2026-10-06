@@ -1,0 +1,8 @@
+{
+  "vehicle_type": "Scooter",
+  "brand": "Honda",
+  "model": "Dio",
+  "manufacture_year": 2021,
+  "km_driven": 20000,
+  "engine_capacity_cc": 110
+}
